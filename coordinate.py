@@ -33,6 +33,7 @@ class Coordinate:
     
 
     def calc_true_heading(self, other):
+        #TODO Check if this works
         # Adapted from https://gist.github.com/jeromer/2005586
         lat1 = math.radians(self.lat)
         lat2 = math.radians(other.lat)
